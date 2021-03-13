@@ -2,24 +2,24 @@ window.sr = ScrollReveal();
 // shadow-effect
         sr.reveal('.shadow', {
                 duration: 3000,
-                reset: true,
+                reset: false,
                 distance: '600px',
                 // delay:  000,
                 origin: 'middle',
                 viewFactor: 0.5
             });    
         
-        sr.reveal('.heading-site', {
-                reset: true,
-                duration: 1000,
-                // delay: 3500,
-                origin: 'right',
-                distance: '200px'
-            });
+//         sr.reveal('.heading-site', {
+//                 reset: false,
+//                 duration: 1000,
+//                 // delay: 3500,
+//                 origin: 'right',
+//                 distance: '200px'
+//             });
 
         sr.reveal('.site-content', {
                 duration: 3000,
-                reset: true,
+                reset: false,
                 // delay: 2000,
                 origin: 'bottom',
                 distance: '300px'
@@ -27,7 +27,7 @@ window.sr = ScrollReveal();
 
         sr.reveal('.site-content-carousel', {
                 duration: 3000,
-                reset: true,
+                reset: false,
                 // delay: 2000,
                 origin: 'bottom',
                 distance: '200px'
